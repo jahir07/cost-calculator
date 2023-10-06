@@ -1,0 +1,56 @@
+.cc-half-bg:after {
+    background: $db-text-blue;
+    content: "";
+    position: absolute;
+    left: 0;
+    height: 100%;
+    width: 45%;
+    top: 0;
+    z-index: -1;
+}
+.cc-login-form{
+    .form-group{
+        transition: 0.5s;
+        border-left: 7px solid  transparent;
+        box-shadow: 0 3px 10px rgb(0 0 0/ 0.1);
+       
+        input{
+            border: 0;
+            outline: 0;
+            padding: 0;
+            height: 30px;
+            font-family: $font-1;
+            font-size: 14px;
+
+            &:focus{
+                outline: 0 !important;
+                border: 0 !important;
+                box-shadow: none !important;
+            }
+        }
+        label{
+            text-transform: uppercase;
+            color: #BABABA;
+            font-family: $font-1;
+            font-size: 14px;
+        }
+        &:focus-within {
+            border-left: 7px solid  $db-text-blue;
+        }
+    }
+    .d-flex{
+        a{
+            text-decoration: none;
+            color: #8C8C8C;
+            font-weight: 500;
+        }
+        input{
+            color:#8C8C8C;
+            font-weight: 600;
+            font-family: $font-1;
+            background: none;
+            border: none;
+            font-size: 14px;
+        }
+    }
+}

@@ -1,0 +1,28 @@
+@import 'variable';
+@import 'common-classes';
+@import 'header';
+
+
+
+
+//dashboard
+@import 'dashboard';
+
+//cost calculator 
+@import 'cost-calculator/cc-login-page';
+@import 'cost-calculator/cc-forgot-passwd';
+@import 'cost-calculator/cc-reset-link';
+@import 'cost-calculator/cc-change-pswd';
+@import 'cost-calculator/cc-dashboard';
+@import 'cost-calculator/cc-history';
+@import 'cost-calculator/cc-draft';
+@import 'cost-calculator/cc-history-details';
+@import 'cost-calculator/cc-quotation';
+@import 'cost-calculator/stepper';
+
+
+//footer
+@import 'footer';
+
+//responsive
+@import 'responsive';

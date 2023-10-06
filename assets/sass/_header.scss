@@ -1,0 +1,26 @@
+/*======================TOP HEADER AND NAVBAR =========*/
+
+.logo {
+    max-width:80px;
+}
+
+/* Offcanvas */
+.offcanvas {
+   
+    max-width: 40%;
+    background: #000;
+    li{
+        a{
+            color: #fff;
+        }
+    }
+    .offcanvas-header {
+        justify-content: end;
+        padding: 1rem 1rem;
+        /* background: #fff; */
+        .btn-close {
+           
+            background-color: #fff;
+        }
+    }
+}

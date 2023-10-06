@@ -1,0 +1,15 @@
+.open-email-app{
+    width: 25%;
+    height: 50px;
+    background: $db-text-blue;
+   
+    display: block;
+    cursor: pointer;
+    a{
+        color: #fff;
+        font-weight: 500;
+    }
+}
+a{
+    cursor: pointer;
+}

@@ -1,0 +1,130 @@
+
+.cals-menu {
+  svg {
+      cursor: pointer;
+  }
+}
+
+.cals-menu-dropdown {
+  li {
+      -webkit-font-smoothing: antialiased;
+      background: #fff;
+      a {
+          text-decoration: none;
+          color: #a2a2a2;
+          text-align: center;
+          border-bottom: 1px solid #efefef;
+          &:last-child {
+            border-bottom: none;
+          }
+      }
+      &:hover {
+          background: #021969;
+          cursor: pointer;
+          a {
+              color: #fff;
+          }
+      }
+  }
+}
+
+.cals-menu-dropdown {
+  width: 150px;
+  margin: auto;
+  background: #fff;
+  border-radius: 20px;
+  top: 40px;
+  display: none;
+  &.active {
+      display: block;
+  }
+}
+
+
+.stepper-wrapper {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-column-count: 2;
+       -moz-column-count: 2;
+            column-count: 2;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    margin: auto;
+    width: 50%;
+    display: flex;
+    align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+    position: relative;
+    i{
+      display: none;
+    }
+  }
+  .stepper-wrapper::before {
+    content: "";
+    width: 100%;
+    top: 27px;
+    height: 2px;
+    border-top: 2px solid lightgray;
+    position: absolute;
+  }
+  
+  .screen-indicator, .screen-indicator-1 {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    z-index: 999999;
+    line-height: 20px;
+    margin: 10px 0 20px;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    background-color: #fff;
+    padding: 10px 10px;
+    color: #06358D;
+    font-weight: 600;
+    font-family: $font-1;
+    
+
+  }
+  
+  .screen-indicator.active, .screen-indicator-1.active {
+    background: #06358D;
+    color: #ffffff;
+    i{
+      display: block;
+
+    }
+    span{
+      display: none;
+    }
+  }
+  
+
+  #stepper-content{
+    
+    .tab {
+        // display: none;
+        width: 100%;
+      }
+      .tab.active {
+        display: block;
+        width: 100%;
+      }
+  }
+  .stepper-content, #second-step .history-details, #third-step .history-details {
+      background: #fff;
+      border-radius: 20px;
+  }
+
+  .no-bottom-radius {
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+
+  .no-top-radius {
+    border-top-left-radius: 0;
+    border-top-right-radius: 0;
+  }

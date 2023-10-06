@@ -1,0 +1,344 @@
+//login page responsive
+
+@media(max-width: 767px){
+	
+	.cc-half-bg {
+		height: unset !important;
+		&:after{
+			
+			width: 100%;
+			top: 0;
+			height: 50%;
+			z-index: -1;
+		}
+		.logo {
+			max-width: 70px;
+			position: static !important;
+			img{
+				min-width: 70px;
+			}
+		}
+	}
+	
+	
+	
+	
+	//forgot psswd
+	
+	.cc-frgt-pswd{
+		form{
+			width: 80%;
+		}
+	}
+	
+	//pswd reset link
+	
+	.cc-frgt-pswd{
+		.open-email-app {
+			width:50%;
+			
+		}
+	}
+	
+	//dashboard
+	
+	.cost-calculator-dashboard{
+		
+		.dashboard-content-section {
+			width: 100%;
+			
+			
+			.dashboard-user-data{
+				.d-flex{
+					flex-wrap: wrap;
+					div.py-4, .cc-total-amount{
+						
+						flex: 0 0 100% !important;
+						border: 0 !important;
+						
+						
+					}
+					.cc-user-info{
+						h2{
+							margin-top: 20px;
+						}
+					}
+					.cc-view-option, .payment-status{
+						
+						padding: 8px 20px;
+						text-align: center;
+						
+						display: block;
+						width: 100%;
+						margin: 10px 0 !important;
+						font-size: 14px !important;
+						a{
+							font-size: 14px !important;
+						}
+					}
+				}
+			}
+			
+		}
+		
+		
+		
+	}
+	
+	//history page
+	
+	.cc-history-section{
+		
+		.user-history{
+			justify-content: center;
+			flex-wrap: wrap;
+			div{
+				flex: 0 0 100%;
+				margin: 0 !important;
+			}
+		}
+		
+		
+	}
+	
+	
+	
+	//draft page
+	
+	.cc-draft{
+		.edit-delete-block{
+			justify-content: center !important;
+			img{
+				margin: 0 20px;
+				width: 30px;
+			}
+		}
+	}
+	
+	//quotation pages
+	
+	.stepper-wrapper{
+		width: 80%;
+	}
+	.stepper-content{
+		.multiple-tabs{
+			flex-wrap: wrap;
+			justify-content: center !important;
+			padding: 0 !important;
+		}.website-content {
+			.col-md-6{
+				border: 0 !important;
+				
+				input{
+					width: 40px;
+				}
+			}
+		}
+		.total-cost-value{
+			flex-wrap: wrap;
+			justify-content: center !important;
+		}
+		
+	}
+	.website-addons{
+		.row{
+			.col-md-4{
+				margin: 0px 0  20px !important;
+				display: flex;
+				align-items: center;
+				div{
+					margin-left: 20px;
+				}
+			}
+		}
+	}
+	.final-quotation{
+		flex-wrap: wrap;
+		div.text-center{
+			margin-top: 10px;
+		}
+	}
+}
+
+
+
+@media(max-width: 500px){
+	//history page
+	.cc-history-section, .cc-draft{
+		.table-header{
+			flex-wrap: wrap;
+			form {
+				
+				width: 100%;
+				margin: 10px 0;
+			}
+		}
+	}
+	
+	
+	
+}
+
+@media (min-width: 768px) and (max-width: 1199px) {
+	.cc-history-section {
+		.user-history, .ref-no-block, .edit-delete-block 
+		{min-height: 160px;
+			flex-wrap: wrap;
+			align-items: center !important;
+			.d-flex{
+				flex-wrap: wrap;
+				align-items: center !important;
+			}
+		}
+		
+	}
+	.website-content {
+		.col-md-6{
+			input{
+				width: 40px;
+			}
+		}
+	}
+}
+
+@media(max-width: 1200px){
+	.cost-calculator-dashboard{
+		
+		.quick-stats{
+			.row{
+				// flex-wrap: nowrap;
+				
+				.col-md-6{
+					
+					margin: 10px 0;
+					.box {
+						
+						text-align: center;
+						min-height: 80px;
+					}
+				}
+			}
+		}
+		.sidebar-toggle,.profile-section{
+			display: block !important;
+		}
+		.sidebar-section{
+			display: none;
+		}
+		.dashboard-content-section {
+			width: 100%;
+		}
+		
+		.offcanvas {
+			max-width: 250px;
+			background: #021969;
+			.sidebar-section{
+				display: block;
+				width: 100%;
+				
+			}
+			.offcanvas .offcanvas-header {
+				-webkit-box-pack: end;
+				-ms-flex-pack: end;
+				justify-content: end !important;
+			}
+			
+		}
+		.profile-section .user-details{
+			display: none;
+		}
+		.page-title{
+			
+			justify-content: center !important;
+			.d-flex{
+				flex: 0 0 73% !important;
+			}
+			.cc-search-section{
+				flex: 0 0 30% !important;
+			}
+			
+		}
+		.cc-user-info{
+			.status{
+				flex-wrap: wrap;
+				.cc-view-option, .payment-complete{
+					margin: 5px 0 !important;
+					width: 80%;
+				}
+			}
+		}
+	}
+	
+	//navbar 
+	.cc-navbar{
+		.container{
+			align-items: baseline;
+			flex-wrap: nowrap;
+		}
+		.navbar-nav{
+			height: unset;
+			li{
+				width: 200px;
+				margin-left: auto;
+			}
+		}
+	}
+	
+	//history 
+	
+	//history details section
+	
+	.history-details{
+		.row{
+			.col-md-6{
+				margin-bottom: 20px;
+			}
+		}
+	}
+	
+	
+}
+
+
+
+@media (max-width: 550px){
+	.cost-calculator-dashboard{
+		.page-title{
+			flex-wrap: wrap;
+			justify-content: center !important;
+			.d-flex{
+				flex: 0 0 100% !important;
+			}
+			.cc-search-section{
+				flex: 0 0 100% !important;
+				margin-top: 20px;
+				
+				#cc-form, input {
+					width: 80% !important;
+					margin: auto;
+				}
+			}
+		}
+	}
+}
+@media(max-width: 500px){
+	
+	.stepper-content{
+		.website-content{
+			p{
+				font-size: 12px;
+			}
+		}
+	}
+}
+
+@media (min-width: 1201px) and (max-width: 1309px) {
+	
+	.cost-calculator-dashboard .sidebar-section {
+		
+		padding: 10px;
+		
+	}
+	
+	
+}

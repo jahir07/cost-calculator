@@ -1,0 +1,150 @@
+#stepper-content{
+    .nav-tabs{
+        background: #02052E;
+        border-radius: 8px;
+      padding: 4px;
+        height: 40px;
+        align-items: center;
+        justify-content: space-between;
+        margin-bottom: 20px;
+      
+        li{
+           padding: 0px;
+         
+       
+           a{
+            background: #02052E;
+        
+            height: auto;
+            color: #fff;
+            font-family: $font-1;
+            font-size: 12px;
+            text-decoration: none;
+            font-weight: 400;
+            height: 30px;
+           padding:  0px 20px;
+           border-radius:5px;
+           display: flex;
+           align-items: center;
+         
+          
+
+
+            &.active{
+               color: #02052E;
+               background: #fff;
+            }
+           }
+
+        }
+    }
+}
+
+
+.stepper-btns {
+    background: #fff;
+    padding: 30px;
+    padding-bottom: 60px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+    position: relative;
+    bottom: 45px;
+}
+
+//ranger slider
+.range-sliders input[type="number"] {
+    appearance: textfield;
+    border: 2px solid #ccc;
+    width: 50px;
+    height: 25px;
+    font-size: 12px;
+    padding: 5px;
+}
+
+/* Chrome, Safari, Edge, Opera */
+.stepper-content input::-webkit-outer-spin-button,
+.stepper-content input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+.stepper-content input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.range-sliders input {
+    margin-top: 2px;
+}
+
+.total-cost-value{
+    .total-block{
+        min-width: 135px;
+        border-radius: 10px;
+        height: 40px;
+        line-height: 40px;
+        font-weight: 600;
+        font-family: $font-1;
+        text-align: center;
+      border: 2px solid #bcbcbc;
+    }
+}
+
+.website-content{
+    input{
+        width: 100px;
+        height: 40px;
+        font-weight: 600;
+        font-family: $font-1;
+        text-align: center;
+        border: 2px solid #bcbcbc;
+    }
+    .d-flex{
+        p.font-500{
+            flex: 0 0 40%;
+        }
+    }
+}
+
+.website-addons{
+    span, label{
+       color: #868686;
+       font-size: 12px;
+       font-family: $font-1;
+    }
+    input[type="text"]{
+        width: 50px;
+        height: 20px;
+        font-weight: 600;
+        font-family: $font-1;
+        text-align: center;
+      border: 2px solid #bcbcbc;
+      color: #868686;
+    }
+   
+}
+
+.quotation-progress{
+    form{
+        label{
+            display: block;
+        }
+        input{
+            width: 85%;
+            height: 40px;
+            font-weight: 600;
+            font-family: $font-1;
+            padding: 0 10px;
+          border: 1px solid #bcbcbc;
+          color: #868686;
+        }
+    }
+}
+
+#third-step {
+    .history-details{
+        img{
+            width: 20px;
+        }
+    }
+}

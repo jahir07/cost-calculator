@@ -1,0 +1,34 @@
+.cc-frgt-pswd{
+    flex-direction: column;
+    h1{
+        color: $db-text-blue;
+    }
+    p{
+        color:#8C8C8C;
+
+    }
+    form{
+        width: 30%;
+    
+    .form-control{
+       
+        input{
+            height: unset;
+        }
+       
+    }
+    input.reset-psswd{
+
+        background: $db-text-blue;
+        color: #fff;
+        font-family: $font-1;
+        border-radius: 0;
+        height: 55px;
+    }
+}
+a{
+    text-decoration: none;
+    color: #8C8C8C;
+    font-weight: 500;
+}
+}

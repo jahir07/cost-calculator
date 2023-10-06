@@ -1,0 +1,9 @@
+.edit-delete-block{
+    img{
+        width: 25px;
+        &:hover {
+            filter: contrast(0.5);
+            opacity: 0.6;
+        }
+    }
+}

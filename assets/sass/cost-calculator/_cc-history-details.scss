@@ -1,0 +1,67 @@
+.history-details{
+    #ref-number{
+        color: #868686;
+    }
+    .row .col-md-3 .d-flex{
+        
+        p{
+            margin-bottom: 10px;
+            
+            &.font-500 {
+                
+                flex: 0 0 70%;
+                font-size: 12px;
+            }
+            &.fw-bold{
+                flex: 0 0 30%;
+                font-size: 12px;
+            }
+            span{
+                color:  #868686;
+                font-size: 10px;
+            }
+        }
+    }
+    .block-title{
+        color:  #868686;
+        margin-bottom: 10px !important;
+    }
+    .client-information{
+        .row{
+            .col-md-6{
+                margin-top: 2rem;
+            }
+        }
+        p{
+            margin-bottom: 5px;
+        }
+        .label{
+            color:  #868686;
+            font-size: 13px;
+        }
+        
+        
+    }
+    
+}
+
+
+.save-draft, .back-btn, .edit-quote, .previous-btn, .next-btn, #nextBtn {
+    color:  #868686;
+    border: 1px solid  #868686;
+    border-radius: 6px;
+    text-decoration: none;
+    padding: 8px 15px;
+    margin: 0 10px;
+    width: 150px;
+    background: none;
+    transition: 0.3s ease-in;
+    cursor: pointer;
+    display: inline-block;
+    &:hover {
+        color: #ffffff;
+        background: $cc-history-page-text;
+        box-shadow: 0 0.5rem 1rem rgb(3 36 120 / 31%) !important;
+        transition: 0.3s ease-in;
+    }
+}
