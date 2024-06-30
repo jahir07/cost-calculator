@@ -42,7 +42,7 @@
                                 <div class="container px-0 d-flex gap-5">
                                 <div>
                                     <h4 class="mb-0">Total Summary</h4>
-                                    <p class="text-10">Displays total amount for all selected fields</p>
+                                    <p class="text-10">Displaying total amount for all selected fields</p>
                                 </div>
                                 <span class="border p-2 d-block">${{ $store.state.total_price }}</span>
                                 </div>
