@@ -29,7 +29,6 @@
                         </div>
                     </div>
                 </div>
-
             </div>
         </div>
 
@@ -84,9 +83,8 @@
                                 <div class="stepper-btns my-4 text-center">
                                     <a class="previous-btn font-metropolis mx-3" v-on:click="prev()">Previous</a>
                                     <a class="next-btn" id="nextBtn" 
-                                        :data-total-price="getTotalPrice()" :data-package="this.$store.getters.getPackageType" :data-total-page="getNoPage()"
+                                        :data-total-price="getTotalPrice()" :data-package="this.$store.getters.getPackageType" :data-total-page="getNoPagePrice()"
                                         v-on:click="saveData()">Send</a>
-
                                     <br>
                                 </div>
                             </div>
@@ -207,7 +205,8 @@ export default {
             }
         },
 
-        getNoPage(){
+        // page price
+        getNoPagePrice(){
             if (this.$store.state.package_type == 'basic' && this.$store.state.plan_type == 'custom' ) {
                 return this.webCusPrice;
             } else if(this.$store.state.package_type == 'medium' && this.$store.state.plan_type == 'custom' ) {
@@ -360,7 +359,7 @@ export default {
                 'package_type': this.$store.state.package_type,
                 'plan_type': this.$store.state.plan_type,
                 'web_design': {
-                    "pages": this.getNoPage(), 
+                    "pages": this.getNoPagePrice(), 
                     "price": this.getWebDesignCost(),
                 },
                 'web_content': {
