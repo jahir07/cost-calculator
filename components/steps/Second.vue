@@ -628,6 +628,7 @@ export default {
             return this.form_cost + this.video_cost + this.online_schedule + this.search_cap_cost + this.member_login_cost + this.analytic_cost + this.social_media_cost + this.chat_cost + this.blog_cost;
         },
 
+        // Get number of page price.
         getNoPagePrice(){
             if (this.$store.state.package_type == 'basic' && this.$store.state.plan_type == 'custom' ) {
                 return this.webCusPrice;

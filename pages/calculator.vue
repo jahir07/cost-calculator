@@ -205,7 +205,7 @@ export default {
             }
         },
 
-        // page price
+        // Get number of page price.
         getNoPagePrice(){
             if (this.$store.state.package_type == 'basic' && this.$store.state.plan_type == 'custom' ) {
                 return this.webCusPrice;
