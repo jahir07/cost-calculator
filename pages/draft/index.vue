@@ -90,7 +90,6 @@
                                                     </div>
                                             </div>
                                         </div>
-
                                     </div>
                                 </div>
                             </div>
@@ -195,8 +194,6 @@ export default {
                     });
                     console.log(del);
                 });
-                
-
             } catch (error) {
                 console.log(error);
             }
@@ -230,7 +227,6 @@ export default {
             }
         }
     },
-
 }
 </script>
 
